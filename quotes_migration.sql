@@ -4,6 +4,7 @@ USE quotes_db;
 
 DROP TABLE IF EXISTS quotes;
 
+
 CREATE TABLE IF NOT EXISTS quotes(
      id INT UNSIGNED NOT NULL AUTO_INCREMENT,
      author_first_name VARCHAR(100),
