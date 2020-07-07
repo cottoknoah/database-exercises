@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS albums(
      artist VARCHAR(200),
      name VARCHAR(100) NOT NULL ,
      release_date SMALLINT UNSIGNED,
-     sales FLOAT,
      genre VARCHAR(200),
+     sales FLOAT,
      PRIMARY KEY(id)
 );

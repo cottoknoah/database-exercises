@@ -1,6 +1,6 @@
 USE quotes_db;
 
--- TRUNCATE quotes;
+TRUNCATE quotes;
 
 
 # This is an example of a single record being added to db

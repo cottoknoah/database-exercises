@@ -16,7 +16,7 @@ SELECT * FROM quotes;
 /*********************** WHERE ***********************/
 
 -- TODO TOGETHER: View quotes by Douglas Adams.
-SELECT *
+SELECT author_first_name, author_last_name FROM quotes;
 
 -- TODO TOGETHER: View quotes by Douglas Adams. Add a caption
 SELECT quote AS 'Douglas Adams Quotes' FROM quotes WHERE author_last_name = 'Adams';
