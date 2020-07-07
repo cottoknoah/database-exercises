@@ -1,6 +1,5 @@
 USE codeup_test_db;
 
--- Delete all rows before seeding new data
 TRUNCATE albums;
 
 INSERT INTO albums (artist,name,release_date, genre, sales)
