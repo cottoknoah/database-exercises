@@ -4,11 +4,12 @@ SHOW TABLES;
 
 DESCRIBE titles;
 
-# 2 In your script, use DISTINCT to find the unique titles in the titles table. Your results should look like:
+# 2 In your script, use DISTINCT to find the unique titles in the titles table.
 SELECT DISTINCT title FROM titles;
 
+
 # 3 Find your query for employees whose last names start and end with 'E'. Update the query to
-# find just the unique last names that start and end with 'E' using GROUP BY. The results should be:
+# find just the unique last names that start and end with 'E' using GROUP BY.
 SELECT DISTINCT last_name
 FROM employees
 WHERE last_name LIKE 'e%e'
@@ -22,7 +23,7 @@ WHERE last_name LIKE 'e%e'
 GROUP BY first_name, last_name;
 
 
-#5 Find the unique last names with a 'q' but not 'qu'. Your results should be:
+#5 Find the unique last names with a 'q' but not 'qu'.
 SELECT DISTINCT last_name
 FROM employees
 WHERE last_name NOT LIKE '%qu%' AND last_name LIKE '%q%'
@@ -38,8 +39,7 @@ GROUP BY last_name ORDER BY COUNT(*);
 
 
 # 7 Update your query for 'Irena', 'Vidya', or 'Maya'. Use count(*) and GROUP BY to find the
-# number of employees for each gender with those names. Your results should be:
+# number of employees for each gender with those names.
 SELECT gender, COUNT(*) FROM employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya')
-  AND gender
 GROUP BY gender;
