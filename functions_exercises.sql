@@ -59,8 +59,6 @@ SELECT * FROM employees WHERE hire_date > '199%'
                           AND birth_date LIKE '%12-25'
 ORDER BY birth_date, hire_date DESC;
 
-
-
 SELECT * FROM employees WHERE hire_date > '199%';
 
 SELECT * FROM employees WHERE hire_date LIKE '%12-25';
