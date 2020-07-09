@@ -24,6 +24,9 @@ LIMIT 5 OFFSET 45;
 
 
 # List the first 10 distinct last name sorted in descending order.
+
 # Find your query for employees born on Christmas and hired in the 90s
+
 # find just the first 5 employees
+
 # Update the query to find the tenth batch of results
