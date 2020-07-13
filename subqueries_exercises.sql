@@ -6,7 +6,7 @@ USE employees;
 SELECT *
 FROM employees
 WHERE emp_no = 101010;
-
+# Step 1  - get emp# 101010's hire date
 # Step 2 - add it with get all employees w/that hire date
 SELECT *
 FROM employees
