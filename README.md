@@ -1,5 +1,5 @@
 # Repo for database exercises
 
-# Languages used: 
-## MySQL 
-## SQL
+## Languages used: 
+* MySQL 
+* SQL
