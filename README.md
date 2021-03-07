@@ -1,6 +1,6 @@
 # Repo for database exercises
 
-Languages used: 
+*Languages used: 
 
-## MySQL 
-## SQL
+# MySQL 
+# SQL
