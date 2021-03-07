@@ -1,3 +1,3 @@
-# Repo for database-exercises
+# Repo for database exercises
 
 ## MySQL Database practice
