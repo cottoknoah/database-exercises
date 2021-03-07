@@ -1,3 +1,6 @@
 # Repo for database exercises
 
-## MySQL Database practice
+Languages used: 
+
+## MySQL 
+## SQL
